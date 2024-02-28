@@ -1,22 +1,69 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+.container {
     max-width: 1150px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.behruz{}
+.behruz {
+}
 
-.fazliddin{}
+.fazliddin {
+}
 
-.otabek{}
+.otabek {
+}
 
-.abduvali{}
+.abduvali {
+}
 
-.ibrohim{}
+.ibrohim {
+}
+.ibrohim__box {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+.ibrohim__title {
+    margin-bottom: 11px;
+    font-size: 26px;
+}
+.ibrohim__text {
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+.ibrohim__card {
+    display: flex;
+    flex-direction: column;
+}
+.ibrohim__link {
+    width: 165px;
+    height: 49px;
+    top: 3311px;
+    left: 916px;
+    border-radius: 5px;
+    background-color: #d64374;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ibrohim__sale {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.ibrohim__sale span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration-line: line-through;
+}
