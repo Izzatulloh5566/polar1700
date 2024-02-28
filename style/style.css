@@ -13,7 +13,40 @@
 
 .behruz{}
 
-.fazliddin{}
+.fazliddin__card{
+    background: #fff;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    border-radius: 7px;
+    border: 1px solid #00000008
+}
+
+.fazliddin__title {
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 9px;
+}
+
+.fazliddin__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    max-width: 198px;
+    text-align: center;
+}
+
+.fazliddin__box {
+    display: flex;
+    gap: 39px;
+    margin: 80px 0;
+}
 
 .otabek{}
 
