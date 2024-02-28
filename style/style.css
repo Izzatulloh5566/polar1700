@@ -15,7 +15,51 @@
 
 .fazliddin{}
 
-.otabek{}
+.otabek{
+    display: flex;
+    justify-content: center;
+}
+.otabek__left{
+    margin-right: 85px;
+}
+.otabek__title{
+    margin-bottom: 11px;
+    margin-top: 110px;
+}
+.otabek__text{
+    max-width: 454px;
+}
+.otabek__price{
+    margin-top: 28px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    gap: 6px;
+    
+    
+    
+}
+.otabek__price span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration-line: line-through;
+}
+.otabek__btn{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    background: #D64374;
+    padding: 15px 46px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+span{
+    margin-left: 6px;
+}
 
 .abduvali{}
 
